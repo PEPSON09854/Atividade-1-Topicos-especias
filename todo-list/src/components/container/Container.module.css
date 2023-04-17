@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container.dark {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+
+}
+
+.container.light {
+    background-image: linear-gradient(to right top, #0e1218, #091321, #101d34, #0b3a81, #185cc2);
+
+
+}
+
+.container>svg {
+    position: absolute;
+    top: 34px;
+    right: 210px;
+    background: none;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}

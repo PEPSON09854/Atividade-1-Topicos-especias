@@ -1,0 +1,439 @@
+.form_control {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000002e;
+    border-radius: 6pt;
+    box-shadow: 10px 5px 10px #1f1f1f;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    padding-bottom: 1em;
+    margin-top: 10em;
+}
+
+.form_control h1 {
+    margin: 1em 0;
+}
+
+.form_control ul {
+    width: 90%;
+    height: 100%;
+    display: flex;
+
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+
+.tarefa {
+    animation-name: fade-in;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: .3;
+    transition: .9s ease-in-out;
+}
+
+
+.form_control ul li {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    width: auto;
+    width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 50px;
+
+}
+
+
+
+.form_control .list {
+    margin: 1em;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: #ffffff6f solid 1px;
+    box-shadow: 10px 5px 10px #1f1f1f;
+    border-radius: 6pt;
+    padding: 0 10px;
+
+    transition: 1s ease-in-out;
+}
+
+.form_control .list2 {
+    margin: 1em;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: #1ae0146f solid 3px;
+    border-radius: 6pt;
+    box-shadow: 10px 2px 10px #000000dc;
+    background-color: #00000089;
+    transition: 1s ease-in-out;
+    padding: 0 10px;
+}
+
+.form_control .btns {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 50px;
+
+}
+
+.form_control .btns .btn1 {
+    width: 100%;
+    padding: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.form_control .btns .btn1:hover {
+    border: 1px solid;
+    color: #f11818;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.form_control .btns .btn2 {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    width: 100%;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.form_control .btns .btn2:hover {
+    border: 1px solid;
+    color: #1493e2;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.form_control .btns .btn3 {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    width: 100%;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.form_control .btns .btn3:hover {
+    border: 1px solid;
+    color: #14e21b;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.form_control .list_edit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.form_control .list_edit input {
+    width: 60%;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border-radius: 6pt;
+    margin: 5px 50px;
+    border: #000000 3px solid;
+}
+
+.form_control .list_edit .btns {
+    right: 20px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 1em;
+    height: 50px;
+}
+
+.form input {
+    width: 65%;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border: #0d0d0d 3px solid;
+    border-radius: 6pt;
+}
+
+
+
+.form button {
+    border: none;
+    border-radius: 6pt;
+    width: 100px;
+    height: 40px;
+    color: #f0f8ff;
+    font-weight: bold;
+    background-color: #2a9f0c;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: .3s ease-in-out;
+    border: #000000 1px solid;
+}
+
+.form button:hover {
+    background-color: #11e63b;
+    transform: scale(1.1);
+    color: #000000;
+    box-shadow: 5px 5px 5px #393939;
+}
+
+.search {
+    margin-bottom: 1em;
+    padding: 20px;
+    height: auto;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search input {
+    width: 320px;
+    height: 40px;
+    color: #FFF;
+    background-color: #00000027;
+    border-radius: 6pt;
+    padding: 0 10px;
+    outline: none;
+}
+
+.search button {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4pt;
+    padding: 0 5px;
+    color: #f0f8ff;
+    font-weight: bold;
+    background-color: #1493e206;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: .3s ease-in-out;
+
+}
+
+.search button:hover {
+
+    transform: scale(1.1);
+    color: #cddf0e;
+
+}
+
+.grid {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000001f;
+    border-radius: 6pt;
+    box-shadow: 10px 5px 10px #1f1f1f;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    padding-bottom: 1em;
+    transition: 1s ease-in-out;
+    margin-top: 10em;
+
+}
+
+.grid ul {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.grid ul li {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: .5em 0;
+    padding: 10px;
+}
+
+.grid h1 {
+    margin: 1em 0;
+}
+
+.grid .list {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    border: #ffffff6f solid 1px;
+    box-shadow: 10px 5px 10px #1f1f1f;
+    border-radius: 6pt;
+    transition: 1s ease-in-out;
+}
+
+.grid .list2 {
+    margin: 1em;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: #1ae0146f solid 3px;
+    box-shadow: 10px 5px 10px #01010195;
+    border-radius: 6pt;
+    padding: 0 10px;
+    background-color: #00000089;
+    transition: 1s ease-in-out;
+}
+
+.grid .btns {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.grid .btns .btn1 {
+    width: 100%;
+    padding: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.grid .btns .btn1:hover {
+    border: 1px solid;
+    color: #f11818;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.grid .btns .btn2 {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    width: 100%;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.grid .btns .btn2:hover {
+    border: 1px solid;
+    color: #1493e2;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.grid .btns .btn3 {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    width: 100%;
+    color: #222121;
+    transition: .2s ease-in-out;
+}
+
+.grid .btns .btn3:hover {
+    border: 1px solid;
+    color: #14e21b;
+    transform: scale(1.1);
+    text-align: center;
+    box-shadow: 5px 5px 5px #0f0f0f;
+    border-radius: 6pt;
+}
+
+.grid .list_edit {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid .list_edit input {
+    width: 80%;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border-radius: 6pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: #000000 3px solid;
+}
+
+
+
+@media (max-width: 1450px) {
+
+    .form_control {
+        width: 100%;
+    }
+
+    .form_control .list {
+        width: 100%;
+    }
+}
